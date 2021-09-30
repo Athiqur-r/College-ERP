@@ -6,7 +6,7 @@ pipeline {
      stages {
         stage("Build") {
             steps {
-                sh "python manage.py" 
+                sh "pip install" 
             }
         }
     }
